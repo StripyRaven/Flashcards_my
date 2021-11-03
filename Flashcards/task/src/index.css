@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*  Background  */
+    background: url("pictures/world.png") no-repeat fixed center;
+    background-size: cover;
+    /*  Flexbox */
+    display: flex;
+    justify-content: space-around;
+}
+
+#quiz-area{
+    /*  Border and shape */
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+
+    box-shadow: 0 8px 32px 0 rgba(76, 31, 135, 0.5);
+    backdrop-filter: blur(0);
+    /*  Shape    */
+    margin-top: 5vh;
+    height: 90vh;
+    /*  Flex item   */
+
+    /*  Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-item{
+    align-self: center;
+    /*flex-shrink: 1;*/
+}
+
+#cards_holder{
+    /*  Border and shape */
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    /*padding: 24px;*/
+    width: 90%;
+    /*  Flexbox */
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh;
+    grid-auto-rows: 20vh;
+    /*grid-template-rows: 100px 1fr;*/
+
+}
+
+.card{
+    background: rgb(249, 239, 230);
+    border: solid rgba(249, 239, 230, 0.2) 1px;
+    border-radius: 8px;
+    /*height: 20%;*/
+    /*width: 20%;*/
+    margin: 8px;
+    /*  Flex item   */
+    /*flex-basis: 4em;*/
+    /*flex-shrink: initial;*/
+
+}
+
+#h1 {
+    color: rgb(68, 77, 84);
+    margin-top: 2.5vh;
+    /*align-self: center;*/
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    color: rgb(253, 130, 60);
+    margin-top: 2.5vh;
+    /*align-self: center;*/
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
