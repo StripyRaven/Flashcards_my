@@ -58,9 +58,10 @@ body {
     /*border: solid rgba(249, 239, 230, 0.2) 1px;*/
     border: solid rgb(222, 222, 222) 1px;
     border-radius: 8px;
-    height: 100%;
-    width: 100%;
-    margin: 8px;
+    height: 90%;
+    width: 90%;
+    /*margin: 8px;*/
+    /*padding: 8px;*/
     /*  Flex item   */
     display: flex;
     justify-content: center;
