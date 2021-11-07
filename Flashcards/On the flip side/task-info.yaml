@@ -396,11 +396,9 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/115/stages/627/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Error: Failed: "Wrong answer in test #3
-
-    Each card should have suggested structure - there should be 4 divs for each card."
-  time: Sun, 07 Nov 2021 18:44:40 UTC
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Sun, 07 Nov 2021 19:13:53 UTC
 record: 3
