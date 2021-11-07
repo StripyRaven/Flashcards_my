@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/384602/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Wed, 03 Nov 2021 10:30:58 UTC
+update_date: Sun, 07 Nov 2021 16:14:13 UTC
 stages:
 - id: 625
   step: 10245
@@ -73,6 +73,8 @@ topics:
     theory_id: 14922
   - title: Interface elements
     theory_id: 15253
+  - title: Colors
+    theory_id: 14914
   - title: Images
     theory_id: 9237
   - title: CSS Selectors
@@ -110,6 +112,8 @@ topics:
     theory_id: 6560
   - title: Lists
     theory_id: 8178
+  - title: Introduction to operating systems
+    theory_id: 9704
   - title: Pseudo-classes
     theory_id: 9762
   - title: Introduction to animation
@@ -126,3 +130,11 @@ topics:
     theory_id: 12219
   - title: Transitions
     theory_id: 13593
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
+  - title: Introduction to Linux
+    theory_id: 9526
+  - title: Starting with Git
+    theory_id: 10894

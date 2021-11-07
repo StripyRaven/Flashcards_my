@@ -26,6 +26,7 @@ body {
     /*  Shape    */
     margin-top: 5vh;
     height: 90vh;
+    width: 90vh;
     /*  Flex item   */
 
     /*  Flexbox */
@@ -45,7 +46,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     /*padding: 24px;*/
-    width: 90%;
+    /* width: 90%; */
     /*  Flexbox */
     display: grid;
     grid-template-columns: 20vh 20vh 20vh;
